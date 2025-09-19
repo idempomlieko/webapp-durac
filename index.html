@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title id="page-title">Do Not Press</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<video id="surprise-video" class="bg-video" style="display:none;" src="static/fish.mp4"></video>
+	<div id="flash-overlay"></div>
+	<div class="container">
+		<h1 id="warning-text">Do not press</h1>
+		<button id="red-btn" style="background:none; border:none; padding:0;">
+			<img id="btn-img" src="static/button_unpressed.png" alt="Red Button" width="180" height="180" draggable="false">
+		</button>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+#surprise-video.bg-video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	z-index: -1;
+	pointer-events: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.2s;
+}
+
+.container {
+	text-align: center;
+}
+
+#warning-text {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 2em;
+	margin-bottom: 20px;
+}
+
+#red-btn {
+	background: red;
+	color: white;
+	border: none;
+	padding: 20px 40px;
+	font-size: 1.5em;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+	transition: background 0.2s;
+}
+
+#red-btn:active {
+	background: darkred;
+}
+
+
+#media-container {
+	margin-top: 20px;
+}
+
+#flash-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	z-index: 2;
+	background: transparent;
+	transition: background 0.1s;
+}
