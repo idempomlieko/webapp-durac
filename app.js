@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.getElementById('flash-overlay');
     const btnImg = document.getElementById('btn-img');
 	let colorInterval = null;
-	btn.addEventListener('mousedown', function() {
+	btn.addEventListener('pointerdown', function() {
 		btnImg.src = 'static/button_pressed.png';
 		video.style.display = 'block';
 		video.classList.add('bg-video');
